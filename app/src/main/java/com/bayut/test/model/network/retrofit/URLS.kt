@@ -1,4 +1,4 @@
-package com.bayut.test.network.retrofit
+package com.bayut.test.model.network.retrofit
 
 object URLS {
     const val development_Environment = ""

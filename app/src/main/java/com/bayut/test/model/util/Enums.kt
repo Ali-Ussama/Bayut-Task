@@ -1,4 +1,4 @@
-package com.bayut.test.util
+package com.bayut.test.model.util
 
 object Enums {
 

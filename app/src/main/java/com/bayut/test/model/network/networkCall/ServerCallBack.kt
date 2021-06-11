@@ -1,4 +1,4 @@
-package com.bayut.test.network.networkCall
+package com.bayut.test.model.network.networkCall
 
 
 /*********

@@ -1,4 +1,4 @@
-package com.bayut.test.network.retrofit
+package com.bayut.test.model.network.retrofit
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

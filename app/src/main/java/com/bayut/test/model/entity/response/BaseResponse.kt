@@ -1,4 +1,4 @@
-package com.bayut.test.entity.response
+package com.bayut.test.model.entity.response
 
 import okhttp3.Headers
 import java.io.Serializable

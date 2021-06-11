@@ -1,6 +1,6 @@
-package com.bayut.test.network.retrofit
+package com.bayut.test.model.network.retrofit
 
-import com.bayut.test.util.LanguageUtil
+import com.bayut.test.model.util.LanguageUtil
 import okhttp3.Interceptor
 import okhttp3.Response
 

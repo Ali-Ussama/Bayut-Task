@@ -1,10 +1,10 @@
-package com.bayut.test.network.networkCall
+package com.bayut.test.model.network.networkCall
 
 import androidx.lifecycle.MutableLiveData
-import com.bayut.test.entity.response.BaseResponse
-import com.bayut.test.util.Constants
-import com.bayut.test.network.retrofit.RetrofitObject
-import com.bayut.test.util.Enums
+import com.bayut.test.model.entity.response.BaseResponse
+import com.bayut.test.model.util.Constants
+import com.bayut.test.model.network.retrofit.RetrofitObject
+import com.bayut.test.model.util.Enums
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

@@ -1,4 +1,4 @@
-package com.bayut.test.network.errorHandler
+package com.bayut.test.model.network.errorHandler
 
 import android.view.View
 import androidx.core.text.HtmlCompat
