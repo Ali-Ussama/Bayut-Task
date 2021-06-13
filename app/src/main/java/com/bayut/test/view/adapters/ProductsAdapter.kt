@@ -42,5 +42,5 @@ class ProductsAdapter(private val productListener: ProductClickListener?) :
 
 
 interface ProductClickListener {
-    fun onProductClicked(product: Product?)
+    fun onProductClicked(product: Product?,binding: ProductRowItemBinding?)
 }
