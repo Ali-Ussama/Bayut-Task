@@ -22,7 +22,7 @@ class ProductsDataSource :
             // Start refresh at page 1 if undefined.
             var nextPageNumber: Int? = null
             params.key?.let { pageNumber ->
-                if (pageNumber < 2)
+                if (pageNumber < 0)
                     nextPageNumber = pageNumber.plus(1)
             }
             val response = ProductRepo.getProducts(nextPageNumber)
