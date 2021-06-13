@@ -7,6 +7,7 @@ object DateUtil {
     const val dayMonthDateFormat: String = "d MMM"
     const val dashLongDateTimeFormatWithMs: String = "yyyy-MM-dd hh:mm:ss.SSS"
 
+    @JvmStatic
     fun formatSelectedDate(
         currentDateFormat: String,
         newDateFormat: String,

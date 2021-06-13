@@ -73,7 +73,7 @@ class MainActivity : BaseActivity(), ProductClickListener {
             Pair.create(binding?.priceTv, "price_tv"),
             Pair.create(binding?.dateTv, "date_tv"),
         )
-        startActivity(Intent(this,ProductDetailsActivity::class.java).apply {
+        startActivity(Intent(this,ProductDetailsJavaActivity::class.java).apply {
             putExtra(Constants.PRODUCT_ITEM,product)
         },options.toBundle())
     }
