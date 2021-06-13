@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BayutShop">
         <activity
-            android:name=".view.activities.ProductDetailsActivity"
+            android:name=".view.activities.ProductDetailsJavaActivity"
             android:configChanges="orientation"
             android:theme="@style/Theme.BayutShop.NoActionBar.Transition" />
         <activity
