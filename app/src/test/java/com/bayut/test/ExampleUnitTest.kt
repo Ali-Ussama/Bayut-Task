@@ -21,8 +21,6 @@ import kotlin.coroutines.coroutineContext
  */
 class ExampleUnitTest {
 
-    private var viewModel: FakeViewModel? = null
-
     @Test
     fun test_correct_formatting_date() {
         assertEquals(
@@ -46,11 +44,6 @@ class ExampleUnitTest {
             )
         )
 
-    }
-
-    @Before
-    fun initViewModel() {
-        viewModel = FakeViewModel()
     }
 
     @Test
@@ -96,7 +89,6 @@ class ExampleUnitTest {
             products[1]
         )
     }
-
 
     private fun generateImageIds(): ArrayList<String> {
         return ArrayList<String>().apply {
