@@ -16,7 +16,7 @@ class ProductAdapterViewHolder(
         product.image_urls?.let {
             binding.thumbnailsRv.layoutManager =
                 LinearLayoutManager(binding.root.context, LinearLayoutManager.HORIZONTAL, false)
-            binding.thumbnailsRv.adapter = ImagesAdapter(it)
+            binding.thumbnailsRv.adapter = ImagesAdapter(it,product,listener,binding)
         }
 
         binding.priceTv.text = product.price
@@ -30,8 +30,8 @@ class ProductAdapterViewHolder(
             )
         }.orEmpty()
 
-        binding.root.setOnClickListener {
-            listener?.onProductClicked(product)
+        itemView.setOnClickListener {
+            listener?.onProductClicked(product,binding)
         }
     }
 }

@@ -13,9 +13,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BayutShop">
         <activity
+            android:name=".view.activities.ProductDetailsActivity"
+            android:configChanges="orientation"
+            android:theme="@style/Theme.BayutShop.NoActionBar.Transition" />
+        <activity
             android:name=".view.activities.MainActivity"
-            android:theme="@style/Theme.BayutShop.NoActionBar"
-            android:configChanges="orientation">
+            android:configChanges="orientation"
+            android:theme="@style/Theme.BayutShop.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

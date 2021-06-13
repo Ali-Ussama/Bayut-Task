@@ -1,6 +1,7 @@
 package com.bayut.test.model.entity.response
 
 import okhttp3.Headers
+import java.io.Serializable
 
 data class ProductsResponse(
     val results: List<Product>?,
@@ -21,7 +22,8 @@ data class Product(
     val image_ids: ArrayList<String>?,
     val image_urls: ArrayList<String>?,
     val image_urls_thumbnails: ArrayList<String>?
-)
+):Serializable
+
 data class PaginationData(
     val key: Int?
 )
